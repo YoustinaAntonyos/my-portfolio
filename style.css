@@ -270,12 +270,11 @@ section{
     }
     .navigation{
         font-size: 0.9em;
-        /* margin-right: 45vh; */
     }
-    .navigation a{
+    /* .navigation a{
         padding-left: 10px;
         
-    }
+    } */
     /* .title{
         font-size: 1.8em;
     } */
@@ -302,8 +301,11 @@ section{
         flex-direction: column;
         align-items: center;
     }
+    .card{
+        width: 80vw;
+    }
     .circle{
-        margin-left: 7vh;
+        margin-left: 5vh;
         margin-top: 10vh;
     }
     .project-card{
