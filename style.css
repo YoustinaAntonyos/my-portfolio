@@ -265,32 +265,53 @@ section{
     header{
         padding: 5px 20px;
     }
+    .logo{
+        font-size: 1.3em;
+    }
+    .navigation{
+        font-size: 0.9em;
+        /* margin-right: 45vh; */
+    }
     .navigation a{
         padding-left: 10px;
         
     }
-    .title{
+    /* .title{
         font-size: 1.8em;
-    }
+    } */
     section {
-        padding: 80px 20px;
+        padding: 100px 20px;
     }
-    .main-content h2{
+    .main h2{
         font-size: 1em;
     }
-    .main-content h3{
-        font-size: 1.6;
+    .main h2 span{
+        font-size: 2.2em;
+    }
+    .main h3{
+        font-size: 1.2em;
+    }
+    .main-btn{
+        font-size: 0.9em;
+        padding: 0.7em 1.5em;
+    }
+    .social-icons a{
+        font-size: 1.3em;
     }
     .content{
         flex-direction: column;
         align-items: center;
     }
     .circle{
-        margin-left: 496px;
+        margin-left: 7vh;
+        margin-top: 10vh;
+    }
+    .project-card{
+        width: 80vw;
     }
 }
 
-@media (max-width:641px){
+/* @media (max-width:641px){
     body{
         font-size: 12px;
     }
@@ -308,4 +329,4 @@ section{
         font-size: 10px;
     }
     
-}
+} */
